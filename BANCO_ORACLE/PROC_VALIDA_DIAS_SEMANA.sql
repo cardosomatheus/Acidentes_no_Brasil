@@ -1,4 +1,4 @@
-﻿-- Cria um padrão para os dias da semana.
+﻿-- Padroniza os dias da semana.
 
 CREATE OR REPLACE PROCEDURE proc_valida_dias_semana AS
 BEGIN

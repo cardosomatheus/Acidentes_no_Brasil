@@ -11,42 +11,22 @@ https://www.kaggle.com/datasets/equeiroz/acidentes-rodovias-federais-brasil-jan0
 
     a - Validar valores que estão diferentes, por conta de espaços, maiusculo, minusculo e acentuação.
     b - validar os valores nulos.
-    c - validar a formação dependendo do tipo do dado.
-    d - criar a tabela principal, com index,pk, grant de acesso.
-    e - criar o campo de geometria para os campos que possui lat e long.
+    c - validar a formação dependendo do data type.
+    d - criar a tabela principal, com index,primary key e grants de acesso.
+    e - criar o campo de geometria pontual para os campos que possui lat e long.
 
 3 - Criar views que receberão os valores para criação de relatórios e dashboards sobre o incidente.
-    a -  Criar views que realizam joins e usam de funções para trazer informações distintas, especificas ou agrupadas por tabelas.
-    b -  Criar uma view geral que retornará todas as informações dos acidentes.
-    c -  Criar uma view que será usada para a criação da analise do geopandas com as informações 
-      de Point dos acidentes de Minas Gerais ou Apenas de Belo Horizonte.
+    a- views por estados.
+    b- views por região.
+    c- view geral com todas as informações
 
-4 - Criar index para otimização de consultas.
-    a -  Estudar sobre indexes e melhores praticas de aplicação em tabelas/views.
-    b -  Aplicar os estudos de index sobre as demandas e avaliar se houve buff ou debuff.
-    c -  Escrever um txt sobre os testes de index e explicar onde houve melhorias e pioras.
-
-5 - Processo de log():
+4 - Processo de log():
     a - Estudar mais sobre os Processos de log.
     b - Se possivel  criar uma função no python que exportara um relatórios do dia.
     c - Entender sobre o log (Os proximos passso dessa etapa depende de estudos).
 
-6 - Segurança de dados: Desenvolva um projeto focado em segurança de dados como criptografia de dados sensíveis.
-    a - Entender sobre o Segurança dos dados (Os proximos passsos dessa etapa depende de estudos).
-
-7 - Usar o SHP de Minas Gerais disponibilizado pelo IBGE para fazer uma analise sobre os acidentes de MG ou BH.
-
-    a - Baixar os arquivos.     
-    b - Leitura do arquivo SHP. 
-    c - Definir se a analise geografica será de MG ou BH.
-    d - Assistir o ultimo episodio sobre geoprocessamento do synapse Data Sciece
-        url: https://www.youtube.com/watch?v=OMJHrwaWXD8.
-    e - No video é explicado formas diferentes sobre a criação de graficos geograficos.
-    f - Usar os videos para aprender sobre os diferentes graficos e implementar no projeto.
-
-8 -  exportar as view para criação de relatórios e Dashboard.
-
-    a - Todas as views serão tranformadas em arquivos json e csv(salvos em pastas diferentes expecificadas pelo nome).
+5 -  exportar as view para criação de relatórios e Dashboard.
+    a- Todas as views serão exportadas em formato xlsx.
     b - Compartilhar o projeto dentro do linkedin e grupos de dados no whatsapp.
     c - Compartilhar o projeto com os grupos de dados e disponibilizar os daods para aqueles que desejam
         usar em projetos de analise pessoal (Pedir que apenas me marque quando realizar a publicação do projeto).
