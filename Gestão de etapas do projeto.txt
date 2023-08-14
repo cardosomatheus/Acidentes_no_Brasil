@@ -18,15 +18,14 @@ https://www.kaggle.com/datasets/equeiroz/acidentes-rodovias-federais-brasil-jan0
 3 - Criar views que receberão os valores para criação de relatórios e dashboards sobre o incidente.
     a- views por estados.
     b- views por região.
-    c- view geral com todas as informações
+    c- view de indicadores.
 
-4 - Processo de log():
-    a - Estudar mais sobre os Processos de log.
-    b - Se possivel  criar uma função no python que exportara um relatórios do dia.
-    c - Entender sobre o log (Os proximos passso dessa etapa depende de estudos).
 
-5 -  exportar as view para criação de relatórios e Dashboard.
+4 -  exportar as view para criação de relatórios e Dashboard.
     a- Todas as views serão exportadas em formato xlsx.
     b - Compartilhar o projeto dentro do linkedin e grupos de dados no whatsapp.
     c - Compartilhar o projeto com os grupos de dados e disponibilizar os daods para aqueles que desejam
         usar em projetos de analise pessoal (Pedir que apenas me marque quando realizar a publicação do projeto).
+
+5- Oragnizar o script.
+    criar funções, pastas e comentarios onde for necessario.
