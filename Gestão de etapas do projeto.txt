@@ -1,4 +1,5 @@
 https://www.kaggle.com/datasets/equeiroz/acidentes-rodovias-federais-brasil-jan07-a-jul19?select=datatran2020.csv
+https://portal.prf.gov.br/dados-abertos
 
 1 - Importar os csvs separados por tabelas para a banco de dados ( Oracle).
 

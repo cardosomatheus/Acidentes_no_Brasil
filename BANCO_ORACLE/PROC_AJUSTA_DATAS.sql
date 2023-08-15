@@ -1,7 +1,6 @@
 ﻿-- Padronização do formato sobre as datas
 
-CREATE OR REPLACE PROCEDURE PROC_AJUSTA_DATAS
-AS
+CREATE OR REPLACE PROCEDURE PROC_AJUSTA_DATAS AS
 BEGIN
     --  Ajusta o padrão sobre as Datas, altera '-' para '/'
     EXECUTE IMMEDIATE 'UPDATE SYSTEM.ACIDENTES_DATATRAN
